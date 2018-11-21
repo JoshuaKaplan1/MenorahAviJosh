@@ -17,6 +17,8 @@ int tempo = 500;
   
 
 struct MusicStruct {
+  
+  
   int A = 550;
   int As = 582;
   int B = 617;
