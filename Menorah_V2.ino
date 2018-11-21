@@ -15,6 +15,7 @@ int led8 = 4;
 int piezo = 3;
 int tempo = 500;
   
+
 struct MusicStruct {
   int A = 550;
   int As = 582;
@@ -53,9 +54,12 @@ struct MusicStruct {
   int AS6 = 1865;
   int B6  = 1976;
   
+  
 }Music;
 
+
 struct LengthStruct {
+
   
   float half = 0.5;
   float threethirds = 0.75;
@@ -64,9 +68,13 @@ struct LengthStruct {
   float two = 2.0;
   float two_half = 2.5;
 
+  
 }Length;
 
+
   void setup() {
+
+    
   // put your setup code here, to run once:
   pinMode(led1,OUTPUT);
   pinMode(led2,OUTPUT);
@@ -79,11 +87,18 @@ struct LengthStruct {
   pinMode(led8,OUTPUT);
   pinMode(piezo, OUTPUT);
 
+    
   }
   
 void setTone(int pin, int note, int duration) {
+  
+  
   tone(pin, note, duration);
+  
+  
   delay(duration);
+  
+  
 }
 
 
