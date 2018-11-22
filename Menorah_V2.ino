@@ -1,7 +1,5 @@
   // Copyright (C) Josh Kaplan
-  //Some parts are by Avi Herman
-  //Actually I did the entire music parts and the light show while Josh just made the doughnut
- 
+  //Some parts are by Avi Herman 
 
 int led1 = 12;
 int led2 = 11;
@@ -507,7 +505,6 @@ delay(200);
   digitalWrite(led7, LOW);
   digitalWrite(led8, LOW);
   digitalWrite(ledcenter, HIGH);
-
 
 delay(1000);
 
