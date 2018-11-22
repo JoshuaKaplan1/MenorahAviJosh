@@ -213,7 +213,6 @@ delay(100);
 
 delay(1000);
 
-
   digitalWrite(led1, LOW);
   digitalWrite(led2, LOW);
   digitalWrite(led3, LOW);
@@ -222,7 +221,7 @@ delay(1000);
   digitalWrite(led6, LOW);
   digitalWrite(led7, LOW);
   digitalWrite(led8, LOW);
-  digitalWrite(ledcenter, LOW);
+  digitalWrite(ledcenter, HIGH);
 
 
   //I put my latakes in the air sometimes
@@ -232,14 +231,7 @@ delay(1000);
   setTone(piezo, Music.GS6, tempo * Length.half);
   setTone(piezo, Music.FS6, tempo * Length.half);
   digitalWrite(led1, HIGH);
-  digitalWrite(led2, LOW);
-  digitalWrite(led3, LOW);
-  digitalWrite(led4, LOW);
-  digitalWrite(led5, LOW);
-  digitalWrite(led6, LOW);
-  digitalWrite(led7, LOW);
   digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, LOW);
   setTone(piezo, Music.E6, tempo * Length.half);
   setTone(piezo, Music.FS6, tempo * Length.half);
   setTone(piezo, Music.GS6, tempo * Length.threethirds);
@@ -247,17 +239,11 @@ delay(1000);
   setTone(piezo, Music.CS5, tempo * Length.threethirds);
   digitalWrite(led1, HIGH);
   digitalWrite(led2, HIGH);
-  digitalWrite(led3, LOW);
-  digitalWrite(led4, LOW);
-  digitalWrite(led5, LOW);
-  digitalWrite(led6, LOW);
   digitalWrite(led7, HIGH);
   digitalWrite(led8, HIGH);
   digitalWrite(ledcenter, LOW);
 
-
 delay(200);
-
 
   //Singing ay oh spin the driedel
   setTone(piezo, Music.E6, tempo * Length.half);
@@ -267,30 +253,21 @@ delay(200);
   digitalWrite(led1, HIGH);
   digitalWrite(led2, HIGH);
   digitalWrite(led3, HIGH);
-  digitalWrite(led4, LOW);
-  digitalWrite(led5, LOW);
   digitalWrite(led6, HIGH);
   digitalWrite(led7, HIGH);
   digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, LOW);
   setTone(piezo, Music.E6, tempo * Length.half);
   setTone(piezo, Music.FS6, tempo * Length.half);
   setTone(piezo, Music.E6, tempo * Length.one);
-  delay(100);
+  
+delay(100);
+  
   setTone(piezo, Music.CS5, tempo * Length.one);
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  digitalWrite(led3, HIGH);
+
   digitalWrite(led4, HIGH);
   digitalWrite(led5, HIGH);
-  digitalWrite(led6, HIGH);
-  digitalWrite(led7, HIGH);
-  digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, HIGH);
-
 
 delay(200);
-
 
   //I want to celebrate and live my life 
   setTone(piezo, Music.GS6, tempo * Length.half);
@@ -299,79 +276,48 @@ delay(200);
   setTone(piezo, Music.GS6, tempo * Length.half);
   setTone(piezo, Music.FS6, tempo * Length.half);
   setTone(piezo, Music.E6, tempo * Length.half);
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  digitalWrite(led3, HIGH);
+
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
-  digitalWrite(led6, HIGH);
-  digitalWrite(led7, HIGH);
-  digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, LOW);
+  
   setTone(piezo, Music.FS6, tempo * Length.half);
   setTone(piezo, Music.GS6, tempo * Length.threethirds);
   setTone(piezo, Music.B5, tempo * Length.threethirds);
   setTone(piezo, Music.CS5, tempo * Length.threethirds);
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
+
   digitalWrite(led3, LOW);
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
   digitalWrite(led6, LOW);
-  digitalWrite(led7, HIGH);
-  digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, LOW);
-
-
+  
 delay(200);
-
 
   //Singing ay oh spin the driedel
   setTone(piezo, Music.E6, tempo * Length.half);
   setTone(piezo, Music.FS6, tempo * Length.half);
   setTone(piezo, Music.E6, tempo * Length.one_half);
   setTone(piezo, Music.CS5, tempo * Length.one_half); 
-  digitalWrite(led1, HIGH);
+
   digitalWrite(led2, LOW);
-  digitalWrite(led3, LOW);
-  digitalWrite(led4, LOW);
-  digitalWrite(led5, LOW);
-  digitalWrite(led6, LOW);
   digitalWrite(led7, LOW);
-  digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, LOW);
+
   setTone(piezo, Music.E6, tempo * Length.half);
   setTone(piezo, Music.FS6, tempo * Length.half);
   setTone(piezo, Music.E6, tempo * Length.one);
-  delay(100);
+  
+delay(100);
+  
   setTone(piezo, Music.CS5, tempo * Length.one);
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, LOW);
-  digitalWrite(led3, LOW);
-  digitalWrite(led4, LOW);
-  digitalWrite(led5, LOW);
-  digitalWrite(led6, LOW);
-  digitalWrite(led7, LOW);
-  digitalWrite(led8, HIGH);
-  digitalWrite(ledcenter, LOW);
-
 
 delay(100);
 
-
-  digitalWrite(led1, LOW); 
-  digitalWrite(led2, LOW);
-  digitalWrite(led3, LOW);
-  digitalWrite(led4, LOW);
-  digitalWrite(led5, LOW);
-  digitalWrite(led6, LOW);
-  digitalWrite(led7, LOW);
-  digitalWrite(led8, LOW);
-  digitalWrite(ledcenter, LOW);
-
+ digitalWrite(ledcenter, LOW);
+ 
+delay(100);
+ 
+ digitalWrite(ledcenter, HIGH);
 
 delay(150);
-
 
   //Oh we say Maotzor
   setTone(piezo, Music.E6, tempo * Length.half);
@@ -383,12 +329,10 @@ delay(150);
   setTone(piezo, Music.E6, tempo * Length.half);
   digitalWrite(led4, HIGH);
   setTone(piezo, Music.E6, tempo * Length.one);
-  digitalWrite(ledcenter, HIGH);
   setTone(piezo, Music.E6, tempo * Length.one);
 
 
  delay(200);
-
 
   //Oh yes for all eight nights
   setTone(piezo, Music.E6, tempo * Length.half);
@@ -398,15 +342,11 @@ delay(150);
   setTone(piezo, Music.E6, tempo * Length.half);
   digitalWrite(led7, HIGH);  
   setTone(piezo, Music.E6, tempo * Length.half);
+  setTone(piezo, Music.E6, tempo * Length.one);
   digitalWrite(led8, HIGH);
   setTone(piezo, Music.E6, tempo * Length.one);
-  digitalWrite(led1, LOW);
-  setTone(piezo, Music.E6, tempo * Length.one);
-  digitalWrite(led2, LOW);
-
 
 delay(200);
-
 
   //Then we play dridel by the candlelight
   setTone(piezo, Music.E6, tempo * Length.half);
@@ -429,9 +369,7 @@ delay(200);
   digitalWrite(led8, LOW);
   setTone(piezo, Music.CS5, tempo * Length.one);
 
-  
- delay(200);
-
+delay(200);
 
 //And I told you once
   setTone(piezo, Music.E6, tempo * Length.half);
@@ -443,12 +381,9 @@ delay(200);
   setTone(piezo, Music.E6, tempo * Length.half);
     digitalWrite(led5, HIGH);
   setTone(piezo, Music.E6, tempo * Length.one);
-    digitalWrite(ledcenter, HIGH);
   
-
 delay(200);
 
-  
   //And I told you twice
   setTone(piezo, Music.E6, tempo * Length.half);
   digitalWrite(led4, HIGH);
@@ -459,11 +394,8 @@ delay(200);
   setTone(piezo, Music.E6, tempo * Length.half);
   digitalWrite(led1, HIGH);
   setTone(piezo, Music.E6, tempo * Length.one);
-  digitalWrite(ledcenter, LOW);
 
-  
 delay(200);
-
 
   //'Bought the miricle
   setTone(piezo, Music.E6, tempo * Length.half);
@@ -479,10 +411,13 @@ delay(200);
   digitalWrite(led1, LOW);
   digitalWrite(led8, LOW);
   setTone(piezo, Music.DS5, tempo * Length.one);
+  digitalWrite(ledcenter, LOW);
+
+delay(200);
+
   digitalWrite(ledcenter, HIGH);
-
-
   //Of the candlelight
+  
   setTone(piezo, Music.E6, tempo * Length.half);
   digitalWrite(led1, HIGH);
   digitalWrite(led5, HIGH);
@@ -504,7 +439,6 @@ delay(200);
   digitalWrite(led6, LOW);
   digitalWrite(led7, LOW);
   digitalWrite(led8, LOW);
-  digitalWrite(ledcenter, HIGH);
 
 delay(1000);
 
