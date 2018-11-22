@@ -1,4 +1,5 @@
 # MenorahAviJosh
-I added the Arduino INO file, after you have made changes, create a new branch.
-(C) Josh Kaplan
-Avi, Enjoy.
+I kept V2 but try V3
+(C) Josh Kaplan, Avi,
+
+Enjoy.
