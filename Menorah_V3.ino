@@ -1,8 +1,8 @@
   // Copyright (C) Josh Kaplan
-  //Some parts are by Avi Herman 
-  //Um Josh u made the doughnut I made ligit everything else
-
-
+  //All the code was written by Avi, just sayin...
+  
+  
+  //Declare Ints
   int led1 = 4;
   int led2 = 5;
   int led3 = 6;
@@ -16,6 +16,7 @@
   int tempo = 500;
   
 
+  //Makes a structure so I can declare notes more easily
 struct MusicStruct {
   
   
@@ -60,7 +61,8 @@ struct MusicStruct {
 }Music;
 
 
-struct LengthStruct {
+  //Same thing but makes it for length
+struct LengthStruct { 
 
   
   float half = 0.5;
@@ -74,10 +76,10 @@ struct LengthStruct {
 }Length;
 
 
+  //Declares evrything as an output
   void setup() {
 
     
-  // put your setup code here, to run once:
   pinMode(led1,OUTPUT);
   pinMode(led2,OUTPUT);
   pinMode(led3,OUTPUT);
@@ -93,6 +95,7 @@ struct LengthStruct {
   }
   
 
+  //Makes a void so I can easyily declare everything without having to do it individualy every single time
 void setTone(int pin, int note, int duration) {
   
   
@@ -105,6 +108,7 @@ void setTone(int pin, int note, int duration) {
 }
 
 
+  //The main code that plays the song as well as the lightshow
 void loop() {
 
 
@@ -152,8 +156,6 @@ delay(100);
 
 
   //Oh dridel I shall play
-
-
   setTone(piezo, Music.G, tempo * Length.half);
   setTone(piezo, Music.C, tempo * Length.half);
   setTone(piezo, Music.C, tempo * Length.half);
@@ -449,3 +451,5 @@ delay(1000);
 
 
 }
+
+//End of the code. YAY!
