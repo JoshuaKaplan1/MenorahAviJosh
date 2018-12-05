@@ -2,7 +2,7 @@
   //All the code was written by Avi, just sayin...
   
   
-  //Declare Ints
+  //Declares ints for the LEDs, tempo, and piezo buzzer
   int led1 = 4;
   int led2 = 5;
   int led3 = 6;
