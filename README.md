@@ -1,5 +1,5 @@
 # MenorahAviJosh
-I kept Menorah_V2 but try Menorah_V3
-(C) Josh Kaplan, Avi,
+Final Version Of The Menorah
+(C) Avi Herman, Josh Kaplan
 
-Enjoy.
+Enjoy
